@@ -1,0 +1,23 @@
+.cabecera {
+  width: 100%;
+}
+
+.cabecera img {
+  width: 100%;
+}
+
+.cabecera h1 {
+  background: $colorPiePagina;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  line-height: 1.1em;
+  padding: 0.5em 0;
+  margin-top: 0.5;
+}
+
+img.LogoVer{
+  width: 20em;
+  height: 10em;
+}

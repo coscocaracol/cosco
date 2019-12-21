@@ -1,0 +1,29 @@
+.tabla {
+  background: $colorFondoTabla;
+  padding-bottom: 2rem;
+}
+
+.cont-tabla {
+  width: 60%;
+  font-size: 2rem;
+  padding-top: 5rem;
+  float: left;
+}
+
+.evento {
+  width: 100%;
+  text-align: center;
+}
+
+.evento td {
+  padding: 4rem 2rem;
+}
+
+.img-tabla {
+  width: 40%;
+  overflow: hidden;
+}
+
+.imagenTabla {
+  width: 100%;
+}

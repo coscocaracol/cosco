@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    viewBox="0 0 250 200"
+  >
+  <desc
+    >Snail Doodle
+    From the book, I Love to Doodle, with SVG illustrations by Jay Nick.
+    I Love to Doodle is available in both eBook and print editions from cattocreations.com
+    Written by Jay Nick
+    Handcoding SVG since 2001
+    Author of eBook, Learn SVG Interactively, published by Catto Creations, LLC
+    http://www.jaynick.com
+    I Love to Doodle is published by Catto Creations, LLC
+    Catto Creations mission is Family, Literacy, and Enrichment
+    Visit http://www.cattocreations.com for award winning children's eBooks
+    I Love to Doodle and other free ePub3 eBooks at http://www.cattocreations.com/ePub3.html</desc
+  >
+  <defs
+    >
+    <style
+        type="text/css"
+      >#snail {fill:none;stroke:black;stroke-width:3px;}
+      #shell {fill:#1e58bb;}
+      #body {fill:#0090cc;}</style
+    >
+    <symbol
+        id="Antenea"
+        viewBox="-100 -83 170 180"
+      >
+      <path
+          d="m0 0c-5-10-20-10-25 0-5 30 40 30 40 0-5-40-60-40-60 0-5 60 75 60 85 0 5-70-105-80-110 0-5 90 120 90 135 0 5-100-155-110-160 0"
+      />
+    </symbol
+    >
+  </defs
+  >
+  <g
+      transform="translate(0) scale(1)"
+    >
+    <g
+        id="snail"
+        transform="translate(100,85)"
+      >
+      <path
+          id="body"
+          d="m-71 69l-19 21c5 20 120 30 170-20 70 60 90-120-24-40l-109 21"
+      />
+      <path
+          id="shell"
+          d="m0 0c-5-10-20-10-25 0-5 30 40 30 40 0-5-40-60-40-60 0-5 60 75 60 85 0 5-70-105-80-110 0-5 90 120 90 135 0 5-100-155-110-160 0-2 40 10 60 25 70"
+      />
+      <use
+          y="-70"
+          x="89.93"
+          xlink:href="#Antenea"
+          width="50"
+          height="50"
+      />
+      <path
+          d="m92.65-47l7.35 57"
+      />
+      <use
+          y="-30"
+          x="119.26"
+          xlink:href="#Antenea"
+          width="30"
+          height="30"
+      />
+      <path
+          stroke-width=".5"
+          d="m121-17v29"
+      />
+      <circle
+          cy="30"
+          cx="110"
+          r="8"
+      />
+      <circle
+          cy="32"
+          cx="112"
+          r="6"
+          fill="#fff"
+      />
+      <path
+          d="m125 76c-15-5-15-16-15-20l6-4-15 10"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Snail Doodle</dc:title
+        >
+        <dc:date
+          >2013-09-07T19:40:46</dc:date
+        >
+        <dc:description
+          >From the book, I Love to Doodle. SVG code can be inserted into an SVG image then scaled and positioned where desired. Handcoded SVG for simplicity.</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/183202/snail-doodle-by-jaynick-183202</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >JayNick</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >animal</rdf:li
+            >
+            <rdf:li
+              >doodle</rdf:li
+            >
+            <rdf:li
+              >handcoded</rdf:li
+            >
+            <rdf:li
+              >icon</rdf:li
+            >
+            <rdf:li
+              >nature</rdf:li
+            >
+            <rdf:li
+              >sea</rdf:li
+            >
+            <rdf:li
+              >shore</rdf:li
+            >
+            <rdf:li
+              >snail</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>

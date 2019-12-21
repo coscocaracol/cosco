@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+/*  ======================================
+        ESTILOS DE PÁGINA PROPIOS 
+    ====================================== */
+
+html {
+  box-sizing: border-box;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  background-color: $colorFondoPagina;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+
+img, object, embed, video {
+  max-width: 100%;
+}
+
+.ie6 img {
+  width:100%;
+}
+
+.fluid {
+  clear: both;
+  margin-left: 0;
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+.fluidList {
+  list-style:none;
+  list-style-image:none;
+  margin:0;
+  padding:0;
+}
+
+/*  ========================================
+    Diseño para móvil (Desde 0 Hasta 480px)
+    ======================================== */
+
+.cabecera {
+  width: 100%;
+}
+
+.imagenCabecera {
+  width: 100%;
+}
+
+.tituloCabecera {
+  background: $colorPiePagina;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: lighter;
+  line-height: 1.1em;
+  padding: 0.5em 0;
+  margin-top: 0.2em;
+}
+
+.gridContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 94%;
+  padding-left: 0;
+  padding-right: 0;
+  clear: none;
+  float: none;
+}
+
+.zeroMargin_mobile {
+  margin-left: 0;
+}
+
+.hide_mobile {
+  display: none;
+}
+
+.unaColumnaMovil {
+  margin: 10px;
+}
+
+.unaColumnaMovil p {
+  font-size: 1em;
+  line-height: 1.6em;
+}
+
+.imagenResponsive {
+  width: 95%;
+  margin: 10px auto;
+  background: #ffffff;
+  border: 3px solid #9f9595;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.imagenResponsive img {
+  width:100%;
+}
+
+.grandeIzquierda {
+  width: 95%;
+  margin: 0 auto;
+  background: red;
+  min-height: 300px;
+}
+
+.pequenoDerecha {
+  width: 95%;
+  margin: 10px auto 20px auto;
+  background: green;
+  min-height: 300px;
+}
+
+.piePagina {
+  width: 100%;
+  background: $colorPiePagina;
+  margin: 1% 0 0 0;
+  min-height: 100px;
+}
+
+.piePagina p {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 45px;
+}
+
+.piePagina a:link, .piePagina a:visited {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.piePagina a:hover {
+  text-decoration: none;
+}
+
+/*  ==========================================
+    Diseño para Tablet (Entre 481px y 768px) 
+    Hereda los estilos del diseño para móvil 
+    ========================================== */
+
+@media only screen and (min-width: 481px) {
+
+  .tituloCabecera {
+    font-size: 2em;
+    padding: 0.7em 0;
+    margin-top: 0;
+  }
+
+  .gridContainer {
+    width: 90.675%;
+    padding-left: 1.1625%;
+    padding-right: 1.1625%;
+    clear: none;
+    float: none;
+    margin-left: auto;
+  }
+
+  .zeroMargin_tablet {
+    margin-left: 0;
+  }
+
+  .hide_tablet {
+    display: none;
+  }
+
+  .dosColumnasTablet {
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 2px solid rgb(75, 180, 149);
+  }
+
+  .imagenResponsive {
+    width: 48%;
+    margin: 5px 1%;
+    float: left;
+  }
+
+  .grandeIzquierda {
+    width: 98%;
+    margin: 1% auto 0 auto;
+  }
+  
+  .pequenoDerecha {
+    width: 98%;
+    margin: 1% auto 2% auto;
+  }
+}
+
+/*  =====================================================================
+    Diseño para ordenador sobremesa (PC) (Entre 769px y 1232px)
+    Hereda los estilos del diseño para móvil y del diseño para la tablet
+    ===================================================================== */
+
+@media only screen and (min-width: 769px) {
+  .gridContainer {
+    width: 88.5%;
+    max-width: 1232px;
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    margin: auto;
+    clear: none;
+    float: none;
+    margin-left: auto;
+  }
+
+  .zeroMargin_desktop {
+    margin-left: 0;
+  }
+
+  .hide_desktop {
+    display: none;
+  }
+
+  .tresColumnasPc{
+    column-count: 3;
+    column-gap: 25px;
+  }
+
+  .tresColumnasPc p{
+    line-height: 1.3;
+  }
+
+  .imagenResponsive {
+    width: 32%;
+    margin: 5px 0.3%;
+  }
+
+  .grandeIzquierda {
+    width: 65%;
+    float: left;
+  }
+  
+  .pequenoDerecha {
+    width: 33%;
+    float: right;
+  }
+}

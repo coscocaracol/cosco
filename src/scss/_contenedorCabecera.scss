@@ -1,0 +1,20 @@
+.contenedorCabecera {
+  width: 80%;
+  margin: 0 auto;
+  //background: $colorContenedor;
+}
+
+.contenedor-titulo {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cosco {
+  font-family: 'Yeon Sung', cursive;
+  font-size: 5em;
+  color: $colorTituloPagina;
+  border: .2em double $colorTituloPagina;
+  padding: .2em;
+}

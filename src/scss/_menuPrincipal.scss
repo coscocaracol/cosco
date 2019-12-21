@@ -1,0 +1,123 @@
+/*  =================================================
+    Diseño para móvil y tablet (Desde 0 Hasta 768px)
+    ================================================= */
+
+#menuPrincipal{
+  background: $colorMenuPrincipal;
+  padding: 1em;
+  //color: #ffffff;
+  //text-decoration: none;
+  box-sizing: border-box;
+}
+
+/*
+.menuPrincipal{
+  background: $colorMenuPrincipal;
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+*/
+
+.botonMenu {
+  display: block;
+}
+
+.menuP {
+  display: flex;
+  justify-content: space-evenly;
+
+  a {
+    color: #2906f0;
+    transition: all .3s ease;
+    text-decoration: none;
+
+    &:hover {opacity: .75}
+  }
+}
+
+
+
+/*
+
+.menuP {
+  background: $colorMenuPrincipal;
+  width: 80%;
+  height: 50%;
+  margin: 0;
+  position: fixed;
+  //left: -100%;
+}
+
+*/
+
+
+.opciones {
+  width: 100%;
+  margin-left: 5%;
+  padding: 0;
+  text-align: left;
+}
+
+.lista {
+  width: 95%;
+  float: none;
+  display: block;
+  border-bottom: 1px solid rgba(77, 17, 243, 0.3);
+}
+
+.enlace {
+  color: $colorEnlacesMenuPrincipal;
+  display: block;
+  text-decoration: none;
+  padding: 5%;
+}
+
+.enlace:hover {
+  background: $colorEnlacesMenuPrincipalHover;
+  text-decoration: underline;
+}
+
+
+/*  =============================================================
+    Diseño para tablet y ordenador sobremesa (PC) (Más de 769px)
+    Hereda los estilos del diseño para móvil
+    ============================================================= */
+
+@media only screen and (min-width: 769px) {
+  .menuPrincipal{
+    display: none;
+  }
+
+  .menuP {
+    width: 100%;
+    max-width: 2000px;
+    margin: 5px auto;
+    left: 0;
+    position: relative;
+    
+  }
+
+  .opciones {
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+    margin: 0 auto
+  }
+  
+  .lista {
+    float: left;
+    width: 20%;
+    border: none;
+    transition: all .5s ease;
+  }
+
+  .lista:hover {
+    transform: scale(1.2);
+  }
+
+  .enlace {
+  font-size: 1.2em;
+  }
+}
